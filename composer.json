@@ -1,0 +1,22 @@
+{
+    "name": "potter/clock",
+    "description": "PHP PSR-20 Clock Implementation",
+    "type": "library",
+    "require": {
+        "php": "^8.3",
+        "psr/clock": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\Clock\\": "src/Potter/Clock/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "minimum-stability": "dev"
+}
