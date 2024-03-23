@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "php": "^8.3",
-        "psr/clock": "dev-master"
+        "potter/clock-interface": "dev-main"
     },
     "license": "MIT",
     "autoload": {
